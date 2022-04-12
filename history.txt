@@ -1,0 +1,82 @@
+    1  cd docker python
+    2  cd docker-python
+    3  pip install pandas
+    4  sudo apt-get install git
+    5  git --version
+    6  git config --global user.name "manshing137"
+    7  git config --global user.email "shingshing7475@gmail.com"
+    8  git init
+    9  git status
+   10  git add app.py 
+   11  git status
+   12  git commit
+   13  git commit "create two files"
+   14  git commit -m "create two files"
+   15  git log
+   16  git add app2.py 
+   17  git commit -m "create and add two files"
+   18  git log
+   19  git branch
+   20  git add app3.py 
+   21  git commit -m "add thied file"
+   22  git branch
+   23  git master
+   24  git checkout master
+   25  git log
+   26  git checkout ef307cebdc03ee364f8940e211fa7e671a5190f3
+   27  git log
+   28  git remote
+   29  git remote -v
+   30  git remote add pb https://github.com/manshing137/test
+   31  git push
+   32  git push abc
+   33  git push test origin
+   34  git push test master
+   35  ssh-keygen -t rsa -b 4096 -C "shingshing7475@gmail.com"
+   36  cat /home/tom/.ssh/id_rsa
+   37  eval "$(ssh-agent -s)"
+   38  ssh-add ~/.ssh/id_rsa
+   39  git push origin master
+   40  git push test master
+   41  git push manshing137/test master
+   42  git remote add shingshing7475@github.com:manshing137/test.git
+   43  git push manshing137/test master
+   44  git push original master
+   45  git config --list
+   46  git remote add origin https://github.com/manshing137/test.git
+   47  git push -u origin master
+   48  history >> history.txt
+   49  git add hello.py 
+   50  git commit -m "hello test"
+   51  git push origin main
+   52  git push origin master
+   53  git add hello.py 
+   54  git add .
+   55  git commit -m "hello test"
+   56  git push origin master
+   57  git add .
+   58  git commit -m "hello test"
+   59  git push origin master
+   60  git push --force origin master
+   61  git push manshing137/test master
+   62  git push test master
+   63  git push main master
+   64  git push origin main
+   65  git push -u origin main
+   66  git push -u origin master
+   67  git add.
+   68  git add .
+   69  git commit "gvgv"
+   70  git commit -m "looks shit"
+   71* 
+   72  git remote add origin https://github.com/manshing137/test.git
+   73  git push -u origin master
+   74  git pull --rebase
+   75  git pull master --rebase
+   76  git branch
+   77  git master
+   78  git log
+   79  git push -f
+   80  git checkout master
+   81  git pull
+   82  history >> history.txt
